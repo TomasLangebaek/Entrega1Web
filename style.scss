@@ -1,61 +1,77 @@
-nav{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    background-color: rgba(20, 61, 194, 0.842);
-    display: flex;
-    flex-direction: row;
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(20, 61, 194, 0.842);
+  display: flex;
+  flex-direction: row;
 }
-nav a{
-    display:inline-block;
-    color:white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    width: auto;
-}
-
-nav a:hover{
-    background-color: rgba(80, 119, 248, 0.842);
+nav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: auto;
 }
 
-section{
-    
+nav a:hover {
+  background-color: rgba(80, 119, 248, 0.842);
 }
 
-.container{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: space-between;
+section {
 }
 
-.info{
-    width: 75%;
-    margin:20px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
 }
 
-.imginfo{
-    width:200px;
-    float:left;
-    margin:10px;
+.info {
+  width: 75%;
+  margin: 20px;
 }
 
-.contacto{
-    background-color: dodgerblue;
-    width:auto;
-    margin:20px;
+.imginfo {
+  width: 200px;
+  float: left;
+  margin: 10px;
 }
 
-.project{
-    margin: 10px;
-    text-align: center;
-    width: 30%;
-    background-color: lightblue;
+.contacto {
+  background-color: dodgerblue;
+  width: auto;
+  margin: 20px;
 }
 
-.project img{
-    width: inherit;
-    
+.project {
+  margin: 23px;
+  text-align: center;
+  width: 30%;
+  background-color: lightblue;
+}
+
+.project img {
+  width: inherit;
+}
+
+.slides {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(168, 168, 247);
+}
+
+.listTitle {
+  background-color: rgba(80, 119, 248, 0.842);
 }
