@@ -1,3 +1,7 @@
+.banner{
+    width: 100%;
+}
+
 nav {
   list-style-type: none;
   margin: 0;
@@ -9,7 +13,7 @@ nav {
 }
 nav a {
   display: inline-block;
-  color: white;
+  color:white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -18,60 +22,38 @@ nav a {
 
 nav a:hover {
   background-color: rgba(80, 119, 248, 0.842);
+  color: white;
 }
 
-section {
+.imgpresentacion{
+    width:20%;
+    float: left;
+    margin: 10px;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: space-between;
+.card-img-top{
+    width: 240px;
+    display:block;
+    margin:auto;
+    vertical-align: middle;
 }
 
-.info {
-  width: 75%;
-  margin: 20px;
+.iconosocial{
+    margin-right:55px;
 }
 
-.imginfo {
-  width: 200px;
-  float: left;
-  margin: 10px;
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.contacto {
-  background-color: dodgerblue;
-  width: auto;
-  margin: 20px;
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.project {
-  margin: 23px;
-  text-align: center;
-  width: 30%;
-  background-color: lightblue;
-}
-
-.project img {
-  width: inherit;
-}
-
-.slides {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: space-between;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(168, 168, 247);
-}
-
-.listTitle {
-  background-color: rgba(80, 119, 248, 0.842);
+.list-group-item{
+    font-family: sans-serif;
+    font-weight: bolder;
 }
